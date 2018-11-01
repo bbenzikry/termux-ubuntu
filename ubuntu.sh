@@ -53,7 +53,7 @@ if [ -n "\$(ls -A binds)" ]; then
 fi
 command+=" -b /dev"
 command+=" -b /proc"
-command+=" -b /data/data/com.termux/files/usr/bin/su:/bin/su"
+#command+=" -b /data/data/com.termux/files/usr/bin/su:/bin/su"
 ## uncomment the following line to have access to the home directory of termux
 #command+=" -b /data/data/com.termux/files/home:/root"
 ## uncomment the following line to mount /sdcard directly to / 
